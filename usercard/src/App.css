@@ -1,23 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#root{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
 }
 .img{
     width: 100px;
     height: 100px;
-    border: 2px solid wheat;
+    background-size: cover;
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 50%;
 }
 .car-contaainer{
+    margin: 0 10px;
+    padding: 20px 10px;
     text-align: center;
-    width: 250px;
-    background-color: gray;
+    width: 300px;
+    background-color: rgb(40, 39, 73);
+    color: rgb(174, 173, 179);
     position: relative;
+    box-shadow: 0 0 15px rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+.car-contaainer h3{
+    margin-top: 5px;
+    font-size: x-large;
+}
+.car-contaainer h4{
+    margin-top: 0px;
+    font-size: large;
+}
+.car-contaainer p{
+    margin-top: 10px;
+    font-size: large;
+    /* font-weight: 350; */
+    font-style: oblique;
 }
 .pro{
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 15px;
+    padding: 3px 7px ;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 600;
+}
+.online{
+    background-color: green;
+}
+.offline{
+    background-color: rgb(247, 31, 31);
+}
+.skills{
+    text-align: start;
+    font-size: small;
+    font-weight: 600;
+}
+.skills h2{
+    margin: 10px 0;
+}
 
+.skills li{
+    display: inline-block;
+    list-style: none;
+    font-size: medium;
+    border: 1px solid rgb(129, 129, 129);
+    padding: 2px 15px ;
+
+    margin: 3px 3px;
 }
